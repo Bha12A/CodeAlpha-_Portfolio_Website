@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: palevioletred;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color:skyblue;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  #home {
+    background-color:palevioletred;
+  }
+  
+  #aboutme {
+    background-color:blueviolet;
+  }
+  
+  #education {
+    background-color:cadetblue;
+  }
+  
+  #projects {
+    background-color:grey;
+  }
+  
+  #contact {
+    background-color:orchid;
+  }
+  
+  footer {
+    background-color: #ff9900;
+    color: lightgoldenrodyellow;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+  }
+  .section-bg-gray {
+    background-color:greenyellow;
+  }
+  
+  .section-bg-white {
+    background-color:royalblue;
+  }
+  
+  .photo-logo{
+    width:70px;
+    height:80px;
+  }
+  .icon {
+    margin-right: 5px;
+  }
+  .heading{
+  font-size:25px;
+  text-decoration:underline;
+  }
+  .education-list {
+    background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      color: yellowgreen;
+  }
+  
+  .icon.fa-graduation-cap {
+    color: purple;
+  }
+  
+  .icon.fa-certificate {
+    color: #0099cc;
+  }
+  
+  .icon.fa-calendar-alt {
+    color: #33cc33;
+  }
+  
+  .icon.fa-map-marker-alt {
+    color: #cc0066;
+  }
+  .heading-list{
+    color:#ffffff;
+  }
+  
+  .contact_content input {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .contact {
+    color: violet;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: 600;
+  }
+  .image {
+    width:40px;
+    height:50px;
+  }
+  .skill-test{
+    color:blanchedalmond;
+  }
